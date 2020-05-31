@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/public_html/it5443.valroberts.net
+    - /bin/cp index.html $DEPLOYPATH
